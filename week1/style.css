@@ -1,0 +1,72 @@
+html {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.75rem;
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    border: 2px solid pink;
+    box-shadow: 5px 5px 1px lightblue;
+    padding: 6px;
+    max-width: 30%;
+}
+
+h1:hover {
+    box-shadow: 7px 7px 2px lightblue;
+}
+
+h1 a:visited {
+    color: black;
+}
+
+h2, h3 {
+    font-family: 'Bangers', cursive;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    font-size: 0.75rem;
+    padding-left: 0px;
+}
+.nav-element {
+    border: 2px solid pink;
+    box-shadow: 3px 3px 1px red;
+    margin: 5px;
+    padding: 5px;
+}
+.nav-element:hover {
+    text-decoration: wavy;
+    box-shadow: 5px 5px 2px red;
+}
+.header, .container, .footer {
+    margin: 75px 200px 0px;
+}
+
+.footer p {
+    font-size: 0.6rem;
+}
+
+/* body */
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container a {
+    text-decoration: underline;
+}
+
+.content-container p {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid blue;
+}
