@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workdbook practice</title>
+        <style>
+            /* every html element should have a class name according to some (BEMT ??) best practices */
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            html {
+                font-size: 16px;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            /* nav  */
+            .nav {
+                padding: 1rem 0.5rem 1rem 0.5rem;
+                background-color: navy;
+            }
+            .nav__list {
+                display: flex;
+                justify-content: flex-end;
+                list-style: none;
+            }
+            .nav__item:not(:last-child){
+                margin-right: 1rem;
+            }
+            .nav__link{
+                color: white;
+                text-decoration: none;
+            }
+            /* header  */
+            .header {
+                padding: 1rem 0.5rem 1rem 0.5rem;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .header__title {
+                text-align: center;
+            }
+            /* main  */
+            .main {
+                padding: 1rem 0.5rem 1rem 0.5rem;
+                height: 50vh;
+                display: flex;
+            } 
+            @media screen and (max-width: 700px) {
+                .main{
+                    flex-direction: column;
+                }
+            }
+
+            .menu{
+                background-color: tomato;
+                width: 25%;
+                height: 100%;
+            }
+            @media screen and (max-width: 700px) {
+                .menu{
+                    width: 100%;
+                }
+            }
+            .content {
+                background-color: pink;
+                width: 50%;
+                height: 100%;
+            }
+            @media screen and (max-width: 700px) {
+                .content{
+                    width: 100%;
+                }
+            }
+            .aside {
+                background-color: purple;
+                width: 25%;
+                height: 100%;
+            }
+            @media screen and (max-width: 700px) {
+                .aside{
+                    width: 100%;
+                }
+            }
+            /* footer  */
+            .footer {
+                padding: 1rem 0.5rem 1rem 0.5rem;
+            }
+
+            .debug {
+                border: 1px dotted black;
+            }
+        </style>
+    </head>
+    <div id="app">
+        <nav class="nav">
+            <ul class="nav__list">
+                <!-- home -->
+                <li class="nav__item">
+                    <a class="nav__link" href="/">Home</a></li>
+                <!-- about -->
+                <li class="nav__item">
+                    <a class="nav__link" href="/">About</a></li>
+                <!-- contact -->
+                <li class="nav__item">
+                    <a class="nav__link" href="/">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- header  -->
+        <header class="header debug">
+            <h1 class="header__title">I Love You</h1>
+        </header>
+        <!-- main  -->
+        <main class="main">
+            <menu class="menu">my menu</menu>
+            <section class="content">my content</section>
+            <aside class="aside">my aside</aside>
+        </main>
+        <!-- footer  -->
+        <footer class="footer debug">
+            <!-- section 1 -->
+            <section class="footer__section">
+                <p class="footer__content">
+                    I love dinos
+                </p>
+            </section>
+            <!-- section 2  -->
+            <section class="footer__section">
+                <p class="footer__content">
+                    I love nature
+                </p>
+            </section>
+        </footer>
+    </div>
+</html>

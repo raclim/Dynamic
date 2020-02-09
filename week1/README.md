@@ -18,3 +18,4 @@ Afterwards, I linked everything to a style sheet. I thought about doing somethin
 On the Glitch site, I went to New Project > Clone from Git Repo and pasted in the https link for cloning my repository. 
 
 [Link to Assignment 1](https://raclim-dynamic.glitch.me/week1/)
+[Old Link Not Working, New Link](https://raclim-dynamic-1.glitch.me/week1/)
