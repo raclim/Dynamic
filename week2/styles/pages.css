@@ -1,0 +1,68 @@
+/* page header  */
+.page__header {
+    padding: 1rem 7rem 1rem 11rem;
+    height: 15vh;
+}
+.page__title {
+    font-size: 4rem;
+}
+@media screen and (max-width: 700px) {
+    .page__header{
+        padding: 1rem 5rem 1rem 5rem;
+        height: 16vh;
+    }
+    .page__title {
+        font-size: 3rem;
+    }
+}
+/* page main  */
+.page__main {
+    padding: 1rem 11rem 1rem 11rem;
+    height: 70vh;
+} 
+.page__section {
+    display: flex;
+    align-items: stretch;
+    margin: 2rem 0;
+}
+.page__left {
+    justify-content: flex-start;
+}
+.page__right {
+    justify-content: flex-end;
+}
+.page__item {
+    width: 25%;
+}
+.page__text {
+    border: 0.1rem solid black;
+    box-shadow: 0.1rem 0.1rem 0.2rem #007ba7;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin: 0 0.1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .page__main {
+        padding: 1rem 5rem 1rem 5rem;
+        height: 80vh;
+    }
+    .page__section{
+        flex-direction: column;
+    }
+    .page__item {
+        width: 100%;
+        margin: 0.2rem 0;
+    }
+    .page__text {
+        font-size: 0.5rem;
+    }
+}
+
+/* trying to change width of page item without making the border look funny */
+/* .left__text:not(:first-child){
+    margin-right: 15%;
+}
+.right__text:not(:last-child){
+    margin-right: 13rem;
+} */

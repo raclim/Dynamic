@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Sriracha', cursive;
+}
+a {
+    color:#007ba7;
+}
+a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+/* nav  */
+.nav {
+    padding: 1rem 7rem 1rem 11rem;
+    margin: 2rem 1rem 0rem 1rem;
+    border-bottom: 0.1rem solid black;
+}
+.nav__item {
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.1rem #f6a4af;
+    width: 25%;
+    margin-right: 15%;
+    text-align: center;
+}
+.nav__item:hover {
+    box-shadow: 0.2rem 0.2rem 0.1rem black;
+    font-weight: bold;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__link{
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+    .nav {
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    .nav__item{
+        font-size: 0.5rem;
+    }
+}
+/* header  */
+.header {
+    padding: 1rem 7rem 1rem 11rem;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.header__section {
+    width: 50%;
+}
+.header__title {
+    font-size: 6rem;
+}
+.header__about {
+    margin-top: 10rem;
+}
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 1rem 5rem 1rem 5rem;
+        height: 20vh;
+    }
+    .header__section {
+        width: 100%;
+    }
+    .header__title {
+        font-size: 2.5rem;
+    }
+    .header__about {
+        font-size: 0.5rem;
+        margin-top: 4.3rem;
+        margin-left: 1.5rem;
+    }
+}
+/* main  */
+.main {
+    padding: 1rem 7rem 1rem 11rem;
+    height: 100vh;
+} 
+
+.main__section {
+    display: flex;
+    padding: 10rem 0rem;
+}
+.main__left {
+    justify-content: flex-start;
+}
+.main__right {
+    justify-content: flex-end;
+}
+.main__text {
+    width:25%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    .main{
+        padding: 1rem 5rem 1rem 5rem;
+        height: 50vh;
+    }
+    .main__section {
+        padding: 5rem 0;
+    }
+    .main__text {
+        font-size: 1rem;
+    }
+}
+
+/* footer  */
+.footer {
+    padding: 1rem 7rem 1rem 11rem;
+    margin: 0rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1rem solid black;
+}
+.footer__section {
+    width: 25%;
+}
+@media screen and (max-width: 700px) {
+    .footer{
+        padding: 1rem 5rem 1rem 5rem;
+        font-size: 0.5rem;
+    }
+}
+
+.debug {
+    border: 1px dotted black;
+}
