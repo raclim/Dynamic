@@ -65,5 +65,7 @@ For the content/navigation pages, I did not decide to keep the grid layout and h
 ![Mobile version of a content page, which has the elements in a column rather than a grid.](images/final_mobile_page.png "Final Coded Page Mobile Version")
 
 ## Glitch Deployment
-[Glitch Project Link]()
+I am not sure if I'm doing the Glitch deployment properly anymore but I created a new project by cloning my git repository and produced the link below. 
+
+[Glitch Project Link](https://raclim-dynamic-2.glitch.me/week2/pages/index.html)
 
