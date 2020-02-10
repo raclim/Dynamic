@@ -10,15 +10,15 @@ For the content, I decided to keep the scent stuff I created for the last assign
 
 ### Sketch 
 I initially misinterpreted the assignment as just re-creating the poster so in the version 1 sketch I just laid out all the poster elements. During this sketch I noticed that the designer placed the elements according to quarter points of the page.  When I realized this poster was more of a compositional guideline, I created the verson 2 sketch with dividing the page into quarters in mind. The left is how I imagined the landing/home page to look and the right is one of the navigation pages. 
-![Several sketches of how the layout may look like following the chosen poster.](images/sketch.png "Design Sketch"){:width="50%"}
+![Several sketches of how the layout may look like following the chosen poster.](images/sketch.png "Design Sketch")
 
 ### Wireframe
 For the wireframe I used Adobe XD because it is on my computer. I have never used this type of program before so I initially had some difficulty placing shapes onto the page. I tried to follow the quarter grid layout from my sketch while playing around with sizing, placement, and colors. After finalizing that I created a mobile version, which I intended to just be a smaller version of the web one.
-![Simple wireframe created with filler text.](images/wireframe.png "Wireframe"){:width="50%"}
+![Simple wireframe created with filler text.](images/wireframe.png "Wireframe")
 
 ### Style Guide
 For the style guide I decided to use inDesign to put everything together. Overall I wanted to keep everything simple, but I knew for my header fonts I wanted to use [Sriracha](https://fonts.google.com/specimen/Sriracha). However, I did not know how to place a Google Font I wanted into inDesign, so I did a side by side comparison of my wireframe font and my desired Google Font to see if they were compatible. 
-![Side by side comparison of text from wireframe and desired text online.](images/style_guide_process.png "Process of making style guide"){:width="50%"}
+![Side by side comparison of text from wireframe and desired text online.](images/style_guide_process.png "Process of making style guide")
 
 After deciding that Sriracha was the one I wanted, I took some screenshots of it and plopped them into my style guide. I did not want to have too many restrictions or specific, complicated elements so I just put the desired fonts and colors. (I just realized that the body font name is missing, but it is just Helvetica.)
 ![Style guide showing header/body fonts, inline links, and colors.](images/style_guide.png "Style Guide")
