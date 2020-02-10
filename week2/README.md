@@ -10,7 +10,7 @@ For the content, I decided to keep the scent stuff I created for the last assign
 
 ### Sketch 
 I initially misinterpreted the assignment as just re-creating the poster so in the version 1 sketch I just laid out all the poster elements. During this sketch I noticed that the designer placed the elements according to quarter points of the page.  When I realized this poster was more of a compositional guideline, I created the verson 2 sketch with dividing the page into quarters in mind. The left is how I imagined the landing/home page to look and the right is one of the navigation pages. 
-![Several sketches of how the layout may look like following the chosen poster.](images/sketch.png "Design Sketch")
+![Several sketches of how the layout may look like following the chosen poster.](images/sketch.png "Design Sketch" width="200")
 
 ### Wireframe
 For the wireframe I used Adobe XD because it is on my computer. I have never used this type of program before so I initially had some difficulty placing shapes onto the page. I tried to follow the quarter grid layout from my sketch while playing around with sizing, placement, and colors. After finalizing that I created a mobile version, which I intended to just be a smaller version of the web one.
@@ -26,6 +26,7 @@ After deciding that Sriracha was the one I wanted, I took some screenshots of it
 ### Design
 For the design I just spruced up the wireframe I created earlier since I did not plan to have any dramatic changes from it in the final appearance. After placing in the actual text I planned to have, I tried re-arranging some elements that felt awkward to me, such as the placement of "Environment" the navigation menu. 
 ![Design resembling wireframe with potential text filled in.](images/design.png "Design Creation Process")
+
 In the finalized version I switched around "Environment" and "Political". Even though there is not much of a difference I felt better seeing them in this order than the one in the other photo. 
 ![Finalized version of design with elements rearranged and more text details added.](images/final_design.png "Final Created Design")
 
