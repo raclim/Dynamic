@@ -12,7 +12,7 @@ After that I added some css stuff, which was similar to week 2's layout.
 
 Overall I found it very cool to see how everything worked!
 
-![Final appearance.](assets/final.png "Final Layout")
+![Final appearance.](public/assets/final.png "Final Layout")
 
 ## Deployment
 [Assignment 4 on Glitch](https://raclim-dynamic-4.glitch.me/week4/public/)
