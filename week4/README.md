@@ -9,7 +9,4 @@ I decided to mostly mirror it to get a better understanding of the different com
 I followed the directory laid out in the assignment. 
 
 ## Deployment
-I hope I do the glitch thing right.  
-
-## API Documentation
-
+Glitch Link will be added 
