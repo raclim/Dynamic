@@ -13,17 +13,17 @@ For the data model, I just wanted to have what I was feeling love towards and wh
 
 ## Development 
 Since we went over the process in class and all the steps were laid out in the MongoDB Guide, I was able to have smoother sailing with the mongoDB stuff and was excited to see information being posted!
-![Loose sketch for Love site.](assets/love_data.png)
+![Love data.](public/assets/love_data.png)
 
 Once I got that to work I tried it through Postman, which I thought was very cool. Everything seemed to move like magic!
-![Loose sketch for Love site.](public/assets/love_postman.png)
+![Love data in Postman.](public/assets/love_postman.png)
 
 ### Difficulties
 I had a version that looked exactly like the example code in the guide, and everything worked well functionally. However, after I started to make some changes I could not get the DELETE or PUT requests to work properly. The DELETE would delete either the first list item or the one before it, while the PUT request would not work at all. I attempted to figure it out by changing the child element segment and switching around variables but could not figure it out. 
 
 ### End Result
 Below is the final result. 
-![Loose sketch for Love site.](public/assets/love.png)
+![Final appearance.](public/assets/love.png)
 
 
 ## Deployment
