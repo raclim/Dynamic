@@ -27,7 +27,13 @@ Below is the final result.
 
 
 ## Deployment
-[Glitch Assignment 5 Link]()
+[Glitch Assignment 5 Link](https://raclim-love.glitch.me/love-app-dwd/views/)
+
+I think I am having some errors retrieving the MongoDB on Glitch. I thought it may have to do with the IP address so I whitelisted it as instructed and then I received this error: 
+
+main.js:19 GET https://raclim-love.glitch.me/api/v1/loves 404
+
+I think I am having difficulty finding the right link to my API and also could not figure that out after attaching /api/v1/loves to a bunch of link combinations. 
 
 ## Final Proposal 
 For the final I would like to continue working on this week's assignment. I would like to figure out to get the PUT and DELETE requests working properly, but I don't think I will want to delete any of my inputs. 
