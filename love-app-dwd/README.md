@@ -5,7 +5,7 @@ I wanted to prioritize solidying the stuff we did last Monday because I got stuc
 
 I decided to specifically hone in on love after listening to [Mika's song, Love Today](https://www.youtube.com/watch?v=AWiccrTB4LM). Since it put me in such a good mood I wanted to add it to my page. I realized I'm not very good at following my own plans so I made a very loose sketch to just plan out where I want the elements to be. I also decided I wanted more "romantic" colors like red, pink, black, and grey as a color scheme. 
 
-![Loose sketch for Love site.](assets/love_sketch.JPG)
+![Loose sketch for Love site.](public/assets/love_sketch.JPG)
 
 I did not fully consider what I'd do with the love information as I wanted to focus on how I could work with it, but it is something I'd like to explore in the final. 
 
@@ -16,14 +16,14 @@ Since we went over the process in class and all the steps were laid out in the M
 ![Loose sketch for Love site.](assets/love_data.png)
 
 Once I got that to work I tried it through Postman, which I thought was very cool. Everything seemed to move like magic!
-![Loose sketch for Love site.](assets/love_postman.png)
+![Loose sketch for Love site.](public/assets/love_postman.png)
 
 ### Difficulties
 I had a version that looked exactly like the example code in the guide, and everything worked well functionally. However, after I started to make some changes I could not get the DELETE or PUT requests to work properly. The DELETE would delete either the first list item or the one before it, while the PUT request would not work at all. I attempted to figure it out by changing the child element segment and switching around variables but could not figure it out. 
 
 ### End Result
 Below is the final result. 
-![Loose sketch for Love site.](assets/love.png)
+![Loose sketch for Love site.](public/assets/love.png)
 
 
 ## Deployment
